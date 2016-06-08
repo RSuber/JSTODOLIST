@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" media="screen" title="no title" charset="utf-8">
+   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+   <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <h1> TO DO LIST </h1>
+    <div class="Main-container">
+    <section class="input">
+      <form class="">
+        <input type="text" name="todo" value="">
+      </form>
+      <!-- <textarea name="myTextBox" cols="20" rows="5">
+      Enter text here
+      </textarea> -->
+    </section>
+    <section class="output">
+        <ul>
+
+        </ul>
+    </section>
+    <section class="log"><input class="log"/></section>
+    <div class="bottom">
+    <button type="all"><p>All</p></button>
+    <button type="active"><p>Active</p></button>
+    <button type="completed"><p>Completed</p></button>
+    <button type="Clear completed"><p class="clear">Clear</p></button>
+
+    </div>
+  </body>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/underscore/underscore.js" charset="utf-8"></script>
+    <script src="data.js" charset="utf-8"></script>
+    <script src="main.js" charset="utf-8"></script>
+</html>
