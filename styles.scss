@@ -21,7 +21,7 @@ body{
     margin-right: 21%;
     margin-top: 8%;
     background-color: lightgray;
-    border: 1px solid gray;
+    border: 3px solid gray;
     margin-bottom: 5%; }
 
 textarea {
@@ -55,4 +55,32 @@ margin-bottom: 10px;
 display: inline-block;
 /* align-items: stretch; */
 padding-left: 33%;
+}
+ul {
+  padding:0;
+  li{
+list-style: none;
+    background: lightsteelblue;
+    border: 3px dotted lightblue;
+  }
+}
+button {
+  font: -webkit-small-control;
+  border: dashed 3px lightblue;
+  font-style: red;
+  font-weight: 800;
+  border-radius: 16px;
+  margin-left: 4%;
+    margin-top: 1%;
+}
+.bottom button {
+  border: solid 3px grey;
+  width:45%;
+  margin-left: 2%;
+  margin-top:0;
+  margin-bottom:1%;
+  p{
+    margin: 3px;
+    font-size: medium;
+  }
 }

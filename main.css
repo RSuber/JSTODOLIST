@@ -15,20 +15,18 @@ body {
 
 .Main-container {
   display: inline-block;
-  width: 50%;
+  width: 25em;
   float: center;
   margin-left: 26%;
   margin-right: 21%;
   margin-top: 8%;
   background-color: lightgray;
-  border: 1px solid gray;
+  border: 3px solid gray;
   margin-bottom: 5%; }
 
 textarea {
   width: 100%; }
-form input {
-  width:100%;
-}
+
 input.output {
   width: 100%;
   background-color: lightgrey;
@@ -36,7 +34,7 @@ input.output {
   border-radius: 5%;
   text-decoration: underline;
   font-family: verdana;
-  font: white; }
+  font-color: white; }
 
 input.log {
   width: 100%;
@@ -45,7 +43,7 @@ input.log {
   border-radius: 5%;
   text-decoration: underline;
   font-family: verdana;
-  font-color: white; }
+}
 
 button {
   width: 24%;
@@ -55,4 +53,30 @@ h1 {
   margin-top: 20px;
   margin-bottom: 10px;
   display: inline-block;
-  padding-left: 33%; }
+  padding-left: 36.5%; }
+
+ul {
+  padding: 0; }
+  ul li {
+    list-style: none;
+    background: lightsteelblue;
+    border: 3px dotted lightblue; }
+
+button {
+  font: -webkit-small-control;
+  border: dashed 3px lightblue;
+  font-style: red;
+  font-weight: 800;
+  border-radius: 16px;
+  margin-left: 4%;
+  margin-top: 1%; }
+
+.bottom button {
+  border: solid 3px grey;
+  width: 45%;
+  margin-left: 2%;
+  margin-top: 0;
+  margin-bottom: 1%; }
+  .bottom button p {
+    margin: 3px;
+    font-size: medium; }
